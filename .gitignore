@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# playwright-cli のブラウザログ/セッション。巨大化しやすく git add -A で誤混入する
+# (n8n-vps-backup では 401MB になっていた)
+.playwright-cli/
+# --profile=~/... の展開漏れで生成される literal チルダディレクトリ (rules/browser.md)
+~/
