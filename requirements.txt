@@ -1,2 +1,2 @@
-streamlit
-pykakasi
+streamlit>=1.65.0
+pykakasi>=2.3.0
